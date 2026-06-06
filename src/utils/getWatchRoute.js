@@ -1,4 +1,4 @@
-const BACKEND_BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL || 'http://localhost:3000';
+const BACKEND_BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL || 'https://backend-movies-itms.onrender.com';
 
 export function getWatchRoute(item, season, episode) {
   if (!item) {
